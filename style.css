@@ -1,0 +1,172 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+.home
+{
+	position: absolute;
+	height: 210%;
+	width: 100%;
+	top: 0;
+	background-image: url('news4.jpg');
+	background-size: cover;
+	background-position: center;
+	opacity: 0.7;
+	z-index: -1;
+}
+.home
+{
+/*	border: 10px solid;*/
+}
+.head
+{
+	margin: 50px 200px 10px 240px;
+	display: flex;
+
+}
+.head1
+{
+	color: white;
+	background-color: tomato;
+}
+.head1 h1
+{
+	color: rgba(255, 255, 255, 0.9);
+	font-size: 90px;
+	padding: 15px 5px 0px 5px;
+	line-height: 73px;
+/*	text-shadow: 0px 0px 5px #eee;*/
+}
+.head1 h3
+{
+	color: rgba(255, 255, 255, 0.9);
+	font-size: 45px;
+	padding: 0px 5px 10px 5px;
+/*	text-shadow: 0px 0px 5px #eee;*/
+}
+.head2
+{
+	margin-left: 20px;
+}
+.head2 font
+{
+	font-size: 20px;
+	font-weight: bolder;
+}
+.head2 span
+{
+	font-size: 20px;
+	line-height: 0px;
+	font-weight: bold;
+}
+.head2 p
+{
+	color: rgba(255, 255, 255, 0.8);
+	background-color: rgba(0, 0, 0, 0.6);
+	margin-top: 20px;
+	padding: 20px;
+	font-size: 50px;
+/*	text-shadow: 0px 0px 5px #eee;*/
+}
+
+.bre h1
+{
+	margin-left: 25px;
+	font-size: 108px;
+	font-family: "Roboto Condensed", sans-serif;
+}
+.img
+{
+	margin: 10px 220px 10px 240px;
+	display: flex;
+}
+
+.img1
+{
+	height:300px ;
+	width: 500px;
+	background-image: url('news3.jpg');
+	background-size: cover;
+	background-position: center;
+	flex: 1.5;
+}
+.cont1
+{
+	flex: 1;
+	text-align: justify;
+	margin-left: 15px;
+}
+.cont2
+{
+	flex: 1;
+	text-align: justify;
+	margin-left: 15px;
+}
+.bor1
+{
+	margin: 20px 220px 0px 235px;
+	border-top: 5px solid rgba(0, 0, 0, 0.6);
+}
+.scre
+{
+	margin: 0px 170px 0px 185px;
+	font-size: 80px;
+	font-family: "Roboto Condensed", sans-serif;
+
+}
+.bor2
+{
+	margin: 0px 220px 10px 235px;
+	border-top: 5px solid rgba(0, 0, 0, 0.6);
+}
+.foot
+{
+	margin: 10px 220px 10px 240px;
+	display: flex;
+}
+.foot1
+{
+	border: 1px solid;
+	flex: 1;
+	text-align: justify;
+}
+
+.foot2
+{
+	margin-left: 10px;
+	flex: 1;
+	text-align: justify;
+
+}
+.img2
+{
+	height: 300px;
+	width: 200px;
+	background-image: url('news2.jpg'),url('news4.jpg');
+	background-blend-mode: luminosity;
+	background-size: cover;
+	background-position: center;
+	margin-left: 10px;
+	flex: 1;
+}
+.foot3
+{
+	flex: 1;
+	margin-left: 10px;
+	text-align: justify;
+}
+.foot1 font
+{
+	font-size: 20px;
+	font-weight: bold;
+}
+.foot4
+{
+	height: 10px;
+	margin: 10px 220px 50px 240px;
+	border: 5px solid rgba(0, 0, 0, 0.6);
+}
